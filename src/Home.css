@@ -1,0 +1,39 @@
+.tv-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tv-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tv-item {
+    margin: 20px;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tv-image {
+    width: 50px;
+    height: 50px;
+    /* object-fit: cover; */
+    /* border-radius: 10px 10px 0 0; */
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #00698f;
+  }
+  
+  .buy-button
